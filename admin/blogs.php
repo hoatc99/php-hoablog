@@ -287,7 +287,6 @@
     </script>
     <!-- Custom Js -->
     <script src="assets/js/custom-scripts.js"></script>
-
     <!-- Metis Menu Js -->
     <script src="assets/js/jquery.metisMenu.js"></script>
     <!-- Morris Chart Js -->

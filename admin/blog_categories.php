@@ -197,7 +197,7 @@
                                                                         <form role="form" method="POST" action="">
                                                                             <div class="modal-header">
                                                                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                                                <h4 class="modal-title" id="myModalLabel">Modal title Here</h4>
+                                                                                <h4 class="modal-title" id="myModalLabel">Edit Category</h4>
                                                                             </div>
                                                                             <div class="modal-body">
                                                                                 <div class="form-group">
@@ -267,7 +267,7 @@
                     <!-- /.col-lg-12 -->
                 </div>
 
-				<footer><p>&copy;2022</p></footer>
+				        <footer><p>&copy;2022</p></footer>
             </div>
             <!-- /. PAGE INNER  -->
         </div>
@@ -296,8 +296,6 @@
     <!-- Morris Chart Js -->
     <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
     <script src="assets/js/morris/morris.js"></script>
-    <!-- Custom Js -->
-    <script src="assets/js/custom-scripts.js"></script>
 
 
 </body>
