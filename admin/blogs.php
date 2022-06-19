@@ -233,8 +233,8 @@
                                                                                 <input type="hidden" name="main_image" value="<?php echo $rows['v_main_image_url']; ?>">
                                                                                 <input type="hidden" name="alt_image" value="<?php echo $rows['v_alt_image_url']; ?>">
                                                                                 <input type="hidden" name="blog_id" value="<?php echo $rows['n_blog_post_id']; ?>">
+                                                                                <button type="submit" class="btn btn-danger" name="delete">Delete</button>
                                                                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                                                <button type="submit" class="btn btn-primary" name="delete">Delete</button>
                                                                             </div>
                                                                         </form>
                                                                     </div>
