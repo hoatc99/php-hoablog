@@ -109,9 +109,7 @@
                           v_phone = :phone, 
                           v_email = :email, 
                           v_image = :image, 
-                          v_message = :message, 
-                          d_date_created = :date_created, 
-                          d_time_created = :time_created
+                          v_message = :message
                       WHERE
                           n_user_id = :get_id";
             // Prepare statement
@@ -134,8 +132,6 @@
             $stmt->bindParam(':email', $this->v_email);
             $stmt->bindParam(':image', $this->v_image);
             $stmt->bindParam(':message', $this->v_message);
-            $stmt->bindParam(':date_created', $this->d_date_created);
-            $stmt->bindParam(':time_created', $this->d_time_created);
 
             // Execute query
             if ($stmt->execute()) {

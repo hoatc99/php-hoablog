@@ -25,8 +25,6 @@
             $user->v_phone = $_POST['phone'];
             $user->v_image = $image_name;
             $user->v_message = $_POST['about'];
-            $user->d_date_updated = date('Y-m-d', time());
-            $user->d_time_updated = date('h:i:s', time());
 
             if ($user->update()) {
                 $flag = "Update profile successfully!";
